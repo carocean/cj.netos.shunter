@@ -98,6 +98,7 @@ task release(type: Copy) {
 release.dependsOn ":cj.netos.shunter.stub:release"
 release.dependsOn ":cj.netos.shunter.program:release"
 release.dependsOn ":cj.netos.shunter.plugin.LabelEngine:release"
+release.dependsOn ":cj.netos.shunter.plugin.CBankShunter:release"
 tasks.getByPath(':cj.netos.shunter.program:release').mustRunAfter tasks.getByPath(':cj.netos.shunter.stub:release')
 
 

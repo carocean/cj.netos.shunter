@@ -7,3 +7,6 @@
 -quiet 
 -windowtitle 'cj.netos.shunter.plugin.LabelEngine 1.0.0 API'
 '/Users/caroceanjofers/studio/github/cj.netos.shunter/cj.netos.shunter.plugin.LabelEngine/src/cj/netos/shunter/plugin/LabelEngine/GatewayAppSitePlugin.java'
+'/Users/caroceanjofers/studio/github/cj.netos.shunter/cj.netos.shunter.plugin.LabelEngine/src/cj/netos/shunter/plugin/LabelEngine/bs/ShunterLabelBS.java'
+'/Users/caroceanjofers/studio/github/cj.netos.shunter/cj.netos.shunter.plugin.LabelEngine/src/cj/netos/shunter/plugin/LabelEngine/db/IDBStore.java'
+'/Users/caroceanjofers/studio/github/cj.netos.shunter/cj.netos.shunter.plugin.LabelEngine/src/cj/netos/shunter/plugin/LabelEngine/db/Dbstore.java'

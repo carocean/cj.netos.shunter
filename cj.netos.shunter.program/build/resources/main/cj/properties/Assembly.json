@@ -8,7 +8,12 @@
 			
 		],		
 		activators : [
-		
+			{
+				name:'反应器',
+				class:'cj.netos.shunter.program.ReactorEntrypointActivitor',
+				parameters:{
+					}
+			}
 		]
 	},
 	assemblyInfo : {

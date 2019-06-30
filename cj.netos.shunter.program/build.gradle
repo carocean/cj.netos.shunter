@@ -20,7 +20,6 @@ sourceSets {
 dependencies {
 	compile group: 'cj.studio.util.reactor', name: 'cj.studio.util.reactor.ultimate', version: ref_cj_studio_util_rector_version
 	compile group: 'cj.studio.util.reactor', name: 'cj.studio.util.reactor.impl', version: ref_cj_studio_util_rector_version
-	compile group: 'cj.netos.fsbank', name: 'cj.netos.inform', version: ref_cj_netos_inform_version
 	compile project(':cj.netos.shunter.stub');
 	compile fileTree('../global/runtime')
 	//compile fileTree('src/cj/references')
@@ -47,7 +46,7 @@ task copyRefembeds(type: Copy) {
     }
 }
 task releaseToHost(type: Copy,dependsOn:copyReferences) {
- 	dependsOn 'copyRefembeds', "build",":cj.netos.shunter.stub:release"
+ 	dependsOn  "build",":cj.netos.shunter.stub:release"
  	from 'build/libs/'
 	into '../cmdtools/gateway-2.1.2/assemblies/shunter'
  	include '**/*.jar'
